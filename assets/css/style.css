@@ -352,6 +352,91 @@ input[type="color"],
 	background: #fff;
 }
 
+/* Experimental Section 'How' */
+
+.section.how {
+	background: url(../img/how-bg.jpg) fixed;
+	background-size: cover;
+	padding-bottom: 35px;
+}
+
+.how .thumbnails .row-fluid {
+	margin-top: 30px;
+}
+
+.how .thumbnails .row-fluid:first-child {
+	margin-top: 0;
+}
+
+.how .block {
+	background: #fff;
+	border-radius: 3px;
+}
+
+.how .thumbnail img {
+	border-radius: 3px 3px 0 0;
+}
+
+.how .thumbnail .caption {
+	padding: 5px 10px 20px;
+}
+
+.how .section-content-title,
+.how .section-content-title a {
+	color: #111 !important;
+}
+
+.how .block:hover .section-content-title a,
+.how .section-content-title a:hover,
+.how .section-content-title a:active,
+.how .section-content-title a:focus {
+	color: #047ecc !important;
+}
+
+.how .carousel-nav {
+	margin-top: 30px;
+}
+
+.how .carousel-nav:before {
+	display: none !important;
+}
+
+.how .carousel-nav ul {
+	background: none;
+	padding: 0;
+}
+
+.how .carousel-nav li {
+	border: none;
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin-left: 0;
+}
+
+.how .carousel-nav li a {
+	width: auto;
+	height: auto;
+	left: auto;
+	top: auto;
+	padding: 3px;
+}
+
+.how .carousel-nav li span {
+	display: block;
+	width: 8px !important;
+	height: 8px !important;
+	border-radius: 10px;
+	border: 2px solid #fff;
+}
+
+.how .carousel-nav li.active span,
+.how .carousel-nav li:hover span {
+	background: #fff;
+}
+
+/* End of Experimental 'How' Section */
+
 .project-details {
 	padding: 0 10px 20px;
 }
