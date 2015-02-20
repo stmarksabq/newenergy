@@ -129,7 +129,6 @@ input[type="color"],
 .navbar-static-top .container,
 .navbar-fixed-top .container {
 	border-bottom: none;
-    position:absolute;
 }
 
 .navbar .brand {
