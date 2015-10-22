@@ -1042,10 +1042,6 @@
   body {
     padding: 0;
   }
-  .img_grayscale {
-    left: 0 !important;
-    margin-left: 0 !important;
-  }
   .section-description {
     padding-left: 0;
     padding-right: 0;
@@ -1091,10 +1087,6 @@
   .personal {
     width: 50% !important;
     float: left !important;
-  }
-  .personal .img_grayscale {
-    left: 50% !important;
-    margin-left: -120px !important;
   }
   .personal:first-child + .personal + .personal {
     clear: left;
