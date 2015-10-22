@@ -789,3 +789,5 @@ body[class*="landing"] #colophon a:focus,
 		font-size: 36px;
 	}
 }
+
+.portfolio .thumbnail img { filter: none;  }
