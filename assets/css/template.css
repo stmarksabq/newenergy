@@ -4979,8 +4979,8 @@ a.badge:hover {
   -webkit-border-radius: 23px;
   -moz-border-radius: 23px;
   border-radius: 23px;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  /*opacity: 0.5;
+  filter: alpha(opacity=50);*/
 }
 .carousel-control.right {
   left: auto;
@@ -5689,8 +5689,8 @@ div.thumbnail {
   color: #f7682c;
 }
 .portfolio .thumbnail:hover .img_grayscale {
-  opacity: 1 !important;
-  filter: alpha(opacity=100) !important;
+  /* opacity: 1 !important;
+  filter: alpha(opacity=100) !important; */
 }
 .portfolio .screenshot {
   position: relative;
